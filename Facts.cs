@@ -2,7 +2,9 @@
 
 namespace unit_testing
 {
-    public class Tests
+    // Facts are tests which are always true. 
+    // They test invariant conditions.
+    public class Facts
     {
         [Fact]
         public void PassingTest()
